@@ -10,6 +10,7 @@
   z-index: 9999;
   position: sticky;
   top: 0;
+  background-color: var(--bg);
 }
 
 .menu-icon {
@@ -82,7 +83,7 @@
 
 .menu-item a {
   color: var(--text);
-  font-size: var(--font-menu-mobile);
+  font-size: var(--font-mobile);
 }
 
 .menu-item a:not(.btn-download):hover {
@@ -96,7 +97,7 @@
   text-align: center;
   padding: 10px;
   background-color: var(--accent);
-  font-size: var(--font-menu-mobile);
+  font-size: var(--font-mobile);
   color: var(--text);
   border-radius: 5px;
   margin-top: 20px;
@@ -120,11 +121,11 @@
     padding: 25px 35px;
   }
   .menu-item a {
-    font-size: var(--font-menu-tablet);
+    font-size: var(--font-tablet);
   }
 
   .btn-download {
-    font-size: var(--font-menu-tablet);
+    font-size: var(--font-tablet);
   }
 }
 
@@ -186,7 +187,7 @@
   }
 
   .menu-item a {
-    font-size: var(--font-menu-desktop);
+    font-size: var(--font-desktop);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -196,7 +197,7 @@
   }
 
   .btn-download {
-    font-size: var(--font-menu-desktop);
+    font-size: var(--font-desktop);
     min-width: 160px;
     padding: 10px 40px;
     margin-top: 0;
@@ -214,7 +215,7 @@
   }
 
    .menu-item a {
-    font-size: var(--font-menu-desktop-big);
+    font-size: var(--font-desktop-big);
     padding: 10px;
   }
 

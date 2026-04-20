@@ -10,10 +10,10 @@
 
   --poppins: "Poppins", sans-serif;
 
-  --font-menu-mobile: 16px;
-  --font-menu-tablet: 18px;
-  --font-menu-desktop: 20px;
-  --font-menu-desktop-big: 22px;
+  --font-mobile: 16px;
+  --font-tablet: 18px;
+  --font-desktop: 20px;
+  --font-desktop-big: 22px;
   
   color: var(--text);
   color-scheme: light dark;
@@ -75,7 +75,7 @@ h2 {
   }*/
 }
 p {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 span {

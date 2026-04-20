@@ -1,0 +1,164 @@
+.introduction {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.introduction-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.subtitle {
+  width: 100%;
+  font-weight: 600;
+  font-size: var(--font-mobile);
+}
+
+.name-span {
+  margin-left: 15px;
+}
+
+.title {
+  width: 100%;
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.title-span {
+  color: var(--text);
+  margin-left: 60px;
+}
+
+.introduction-description {
+  font-weight: 400;
+  font-size: var(--text);
+}
+
+.introduction-image {
+  width: 80%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.bnt-job {
+  background-color: var(--accent);
+  width: 100%;
+  text-align: center;
+  color: var(--text);
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: (--font-mobile);
+  font-weight: 500;
+}
+
+.bnt-job:hover {
+  background-color: var(--accent-bg);
+}
+
+@media screen and (min-width: 768px) {
+  .introduction {
+    padding: 50px;
+  }
+
+  .subtitle,
+  .introduction-description,
+  .bnt-job {
+    font-size: var(--font-tablet);
+  }
+
+  .title {
+    font-size: 60px;
+    line-height: 1.3;
+  }
+
+  .title-span {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .introduction {
+    padding: 80px;
+    gap: 40px;
+    flex-direction: row;
+  }
+
+  .introduction-info {
+    align-items: flex-start;
+  }
+
+  .subtitle,
+  .introduction-description {
+    font-size: var(--font-desktop);
+  }
+
+  .introduction-description {
+    line-height: 1.8;
+  }
+
+  .title {
+    font-size: 55px;
+    line-height: 1.4;
+  }
+
+  .title-span {
+    margin-left: 90px;
+  }
+
+  .introduction-image {
+    width: 50%;
+    height: auto;
+    margin-top: 0;
+  }
+
+  .bnt-job {
+    width: fit-content;
+    font-size: var(--font-desktop);
+    text-align: left;
+    padding: 10px 25px;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .introduction {
+    padding: 100px;
+    gap: 80px;
+  }
+
+  .introduction-info {
+    gap: 25px;
+  }
+
+  .subtitle,
+  .introduction-description {
+    font-size: 25px;
+  }
+
+  .title {
+    font-size: 85px;
+    line-height: 1.4;
+  }
+
+  .title-span {
+    margin-left: 120px;
+  }
+
+  .introduction-image {
+    width: 700px;
+    height: auto;
+  }
+
+  .bnt-job {
+    padding: 10px 25px;
+    font-size: var(--font-desktop-big);
+  }
+}

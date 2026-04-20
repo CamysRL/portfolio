@@ -27,7 +27,7 @@ export default function Header() {
             <a href="/">Home</a>
           </li>
           <li className="menu-item">
-            <a href="/">Sobre Mim</a>
+            <a href="#sobre">Sobre Mim</a>
           </li>
           <li className="menu-item">
             <a href="/">Conhecimentos</a>

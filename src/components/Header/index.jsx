@@ -24,19 +24,29 @@ export default function Header() {
         </div>
         <ul className="header-links">
           <li className="menu-item">
-            <a href="/" onClick={() => setIsMenuOpen(false)}>Home</a>
+            <a href="#introduction" onClick={() => setIsMenuOpen(false)}>
+              Home
+            </a>
           </li>
           <li className="menu-item">
-            <a href="#sobre" onClick={() => setIsMenuOpen(false)}>Sobre Mim</a>
+            <a href="#sobre" onClick={() => setIsMenuOpen(false)}>
+              Sobre Mim
+            </a>
           </li>
           <li className="menu-item">
-            <a href="/" onClick={() => setIsMenuOpen(false)}>Conhecimentos</a>
+            <a href="/" onClick={() => setIsMenuOpen(false)}>
+              Conhecimentos
+            </a>
           </li>
           <li className="menu-item">
-            <a href="/" onClick={() => setIsMenuOpen(false)}>Projetos</a>
+            <a href="/" onClick={() => setIsMenuOpen(false)}>
+              Projetos
+            </a>
           </li>
           <li className="menu-item">
-            <a href="/"onClick={() => setIsMenuOpen(false)}>Contato</a>
+            <a href="/" onClick={() => setIsMenuOpen(false)}>
+              Contato
+            </a>
           </li>
           <li className="menu-item">
             <a

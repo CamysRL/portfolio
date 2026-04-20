@@ -24,19 +24,19 @@ export default function Header() {
         </div>
         <ul className="header-links">
           <li className="menu-item">
-            <a href="/">Home</a>
+            <a href="/" onClick={() => setIsMenuOpen(false)}>Home</a>
           </li>
           <li className="menu-item">
-            <a href="#sobre">Sobre Mim</a>
+            <a href="#sobre" onClick={() => setIsMenuOpen(false)}>Sobre Mim</a>
           </li>
           <li className="menu-item">
-            <a href="/">Conhecimentos</a>
+            <a href="/" onClick={() => setIsMenuOpen(false)}>Conhecimentos</a>
           </li>
           <li className="menu-item">
-            <a href="/">Projetos</a>
+            <a href="/" onClick={() => setIsMenuOpen(false)}>Projetos</a>
           </li>
           <li className="menu-item">
-            <a href="/">Contato</a>
+            <a href="/"onClick={() => setIsMenuOpen(false)}>Contato</a>
           </li>
           <li className="menu-item">
             <a

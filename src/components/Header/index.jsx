@@ -26,26 +26,28 @@ export default function Header() {
           <li className="menu-item">
             <a href="/">Home</a>
           </li>
-          <li>
+          <li className="menu-item">
             <a href="/">Sobre Mim</a>
           </li>
-          <li>
+          <li className="menu-item">
             <a href="/">Conhecimentos</a>
           </li>
-          <li>
+          <li className="menu-item">
             <a href="/">Projetos</a>
           </li>
-          <li>
+          <li className="menu-item">
             <a href="/">Contato</a>
           </li>
+          <li className="menu-item">
+            <a
+              href="/Curriculo-CamillyLima.pdf"
+              download="Curriculo-Camilly-Lima.pdf"
+              className="btn-download"
+            >
+              Baixar CV
+            </a>
+          </li>
         </ul>
-        <a
-          href="/Curriculo-CamillyLima.pdf"
-          download="Curriculo-Camilly-Lima.pdf"
-          className="btn-download"
-        >
-          Baixar CV
-        </a>
       </nav>
     </header>
   );

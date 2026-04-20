@@ -10,23 +10,19 @@
 
   --poppins: "Poppins", sans-serif;
 
-
-  /*
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
+  --font-menu-mobile: 16px;
+  --font-menu-tablet: 18px;
+  --font-menu-desktop: 20px;
+  --font-menu-desktop-big: 22px;
+  
+  color: var(--text);
   color-scheme: light dark;
-  color: var(--text); 
   background: var(--bg);
+  letter-spacing: 0.18px;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
-
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
-  */
 }
 
 @media (prefers-color-scheme: dark) {

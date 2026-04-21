@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./style.css";
 import menuIcon from "../../assets/menu-icon.svg";
 import closeIcon from "../../assets/close-icon.svg";
+import cv from "/Curriculo-CamillyLima.pdf";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -50,7 +51,7 @@ export default function Header() {
           </li>
           <li className="menu-item">
             <a
-              href="/Curriculo-CamillyLima.pdf"
+              href={cv}
               download="Curriculo-Camilly-Lima.pdf"
               className="btn-download"
             >

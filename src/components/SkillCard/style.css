@@ -1,6 +1,7 @@
 .skill-card {
   padding: 30px 20px;
   border: 1px solid var(--accent-border);
+  background-color: var(--secondary-bg);
   border-radius: 5px;
   width: 100%;
 }

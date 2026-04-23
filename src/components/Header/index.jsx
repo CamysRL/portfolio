@@ -49,16 +49,14 @@ export default function Header() {
               Contato
             </a>
           </li>
-          <li className="menu-item">
-            <a
+        </ul>
+        <a
               href={cv}
               download="Curriculo-Camilly-Lima.pdf"
               className="btn-download"
             >
               Baixar CV
             </a>
-          </li>
-        </ul>
       </nav>
     </header>
   );

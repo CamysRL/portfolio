@@ -7,6 +7,7 @@
   --accent-bg: #ec3182;
   --secondary-bg: #f8f8f8;
   --accent-border: #545454;
+  --bnt-text-color: #ffffff;
 
   --poppins: "Poppins", sans-serif;
 
@@ -33,6 +34,7 @@
     --accent-bg: #ec3182;
     --secondary-bg: #2d2d2d;
     --accent-border: #3d3d3d;
+    --bnt-text-color: #ffffff;
   }
 }
 
@@ -47,6 +49,7 @@ body {
   color: var(--text);
   transition: background-color 0.3s ease, color 0.3s ease;
   font-family: var(--poppins);
+  cursor: default;
 }
 
 h1,
@@ -70,8 +73,8 @@ h1 {
 }
 h2 {
   font-weight: 600;
-  /*font-size: 24px;
-  line-height: 118%;
+  font-size: 32px;
+  /*line-height: 118%;
   letter-spacing: -0.24px;
   margin: 0 0 8px;
   @media (max-width: 1024px) {
@@ -79,7 +82,7 @@ h2 {
   }*/
 }
 p {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 span {
@@ -88,4 +91,8 @@ span {
 
 a {
   text-decoration: none;    
+}
+
+button {
+  font-family: var(--poppins);
 }

@@ -174,6 +174,11 @@
 @media screen and (min-width: 3000px) {
   .project-card {
     padding: 40px;
+    gap: 10px;
+  }
+
+  .image-container {
+    height: 450px;
   }
 
   .project-title {

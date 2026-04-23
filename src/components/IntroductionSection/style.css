@@ -38,7 +38,7 @@
 
 .introduction-description {
   font-weight: 400;
-  font-size: var(--text);
+  font-size: var(--font-mobile);
 }
 
 .introduction-image {

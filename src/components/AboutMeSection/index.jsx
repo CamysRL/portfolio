@@ -3,7 +3,7 @@ import camillyInferior from "../../assets/camilly-inferior.png";
 
 export default function AboutMeSection() {
   return (
-    <section className="about-section" id="sobre">
+    <section className="about-section" id="about">
       <img
         className="about-image"
         src={camillyInferior}

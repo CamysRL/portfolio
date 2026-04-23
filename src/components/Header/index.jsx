@@ -30,12 +30,12 @@ export default function Header() {
             </a>
           </li>
           <li className="menu-item">
-            <a href="#sobre" onClick={() => setIsMenuOpen(false)}>
+            <a href="#about" onClick={() => setIsMenuOpen(false)}>
               Sobre Mim
             </a>
           </li>
           <li className="menu-item">
-            <a href="/" onClick={() => setIsMenuOpen(false)}>
+            <a href="#knowledge" onClick={() => setIsMenuOpen(false)}>
               Conhecimentos
             </a>
           </li>

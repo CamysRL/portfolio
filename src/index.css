@@ -10,10 +10,10 @@
 
   --poppins: "Poppins", sans-serif;
 
-  --font-mobile: 16px;
-  --font-tablet: 18px;
-  --font-desktop: 20px;
-  --font-desktop-big: 22px;
+  --font-mobile: 18px;
+  --font-tablet: 20px;
+  --font-desktop: 22px;
+  --font-desktop-big: 24px;
   
   color: var(--text);
   color-scheme: light dark;

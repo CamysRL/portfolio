@@ -228,3 +228,22 @@ a.btn-download {
     width: fit-content;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .header-container {
+    padding: 65px 75px;
+  }
+
+  .header-links {
+    gap: 50px;
+  }
+
+   .menu-item a {
+    font-size: var(--font-desktop-huge);
+    padding: 10px;
+  }
+
+  .nav-header .btn-download {
+    font-size: var(--font-desktop-huge);
+  }
+}

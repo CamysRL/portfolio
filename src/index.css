@@ -15,6 +15,7 @@
   --font-tablet: 20px;
   --font-desktop: 22px;
   --font-desktop-big: 24px;
+  --font-desktop-huge: 26px;
   
   color: var(--text);
   color-scheme: light dark;

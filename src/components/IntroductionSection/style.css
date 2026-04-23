@@ -136,11 +136,12 @@
 
   .introduction-info {
     gap: 25px;
+    width: 100%;
   }
 
   .subtitle,
   .introduction-description {
-    font-size: 25px;
+    font-size: var(--font-desktop-big);
   }
 
   .title {
@@ -162,3 +163,36 @@
     font-size: var(--font-desktop-big);
   }
 }
+
+@media screen and (min-width: 2500px) {
+  .introduction-image {
+    width: 900px;
+  }
+}
+
+@media screen and (min-width: 3000px) {
+  .introduction {
+    padding: 150px;
+  }
+
+  .subtitle,
+  .introduction-description {
+    font-size: var(--font-desktop-huge);
+  }
+
+  .title {
+    font-size: 95px;
+    line-height: 1.3;
+  }
+
+  .title-span {
+    margin-left: 150px;
+  }
+
+  .bnt-job {
+    padding: 10px 30px;
+    font-size: var(--font-desktop-huge);
+  }
+}
+
+

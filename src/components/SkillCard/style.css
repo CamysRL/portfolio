@@ -89,3 +89,13 @@
     font-size: 28px;
   }
 }
+
+@media screen and (min-width: 3000px) {
+  .skill-description {
+    font-size: var(--font-desktop-huge);
+  }
+
+  .skill-title {
+    font-size: 30px;
+  }
+}

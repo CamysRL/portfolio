@@ -96,3 +96,27 @@
     height: auto;
   }
 }
+
+@media screen and (min-width: 2500px) {
+  .about-image {
+    width: 900px;
+  }
+}
+
+@media screen and (min-width: 3000px) {
+  .about-section {
+    padding: 150px;
+  }
+
+  .about-title {
+    font-size: 53px;
+  }
+
+  .about-info {
+    gap: 30px;
+  }
+
+  .about-description {
+    font-size: var(--font-desktop-huge);
+  }
+}

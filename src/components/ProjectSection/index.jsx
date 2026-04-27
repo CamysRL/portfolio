@@ -14,20 +14,6 @@ export default function ProjectSection() {
       tags: ["React", "HTML & CSS", "JavaScript", "Git & GitHub"],
       projectLink: "https://camysrl.github.io/bonsai-replica/",
     },
-    {
-      projectImage: projectExample,
-      projectName: "Clinica Harmonn",
-      projectDescription: "Recriação de uma landing page inspirada na Bonsai, com foco em layout moderno, responsividade e organização de componentes utilizando React.",
-      tags: ["React", "HTML & CSS", "JavaScript", "Git & GitHub", "Java & Spring Boot"],
-      projectLink: "#",
-    },
-    {
-      projectImage: projectExample,
-      projectName: "Clinica Harmonn",
-      projectDescription: "Recriação de uma landing page inspirada na Bonsai, com foco em layout moderno, responsividade e organização de componentes utilizando React.",
-      tags: ["HTML & CSS", "JavaScript", "Git & GitHub", "Figma"],
-      projectLink: "#",
-    },
   ];
 
   const tags = [

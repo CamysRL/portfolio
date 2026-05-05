@@ -1,7 +1,7 @@
 import "./style.css";
 import { useState } from "react";
 import ProjectCard from "../ProjectCard";
-import projectExample from "../../assets/project-example.png";
+import projectExample from "../../assets/project-bonsai.png";
 
 export default function ProjectSection() {
   const [selectedTag, setSelectedTag] = useState("Todos");
